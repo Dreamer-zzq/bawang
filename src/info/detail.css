@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+a,i,li{
+    font-size: 12px;
+    color: #78797a;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+i{
+    font-style: normal;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background-color: #E3E4E5;
+    overflow: hidden;
+}
+.header-right{
+    overflow: hidden;
+}
+.header-right li{
+    float: left;
+    padding: 10px 5px;
+}
+#logo{
+    clear: both;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.search input{
+    width: 300px;
+    height: 29px;
+}
+.search button{
+    padding: 7px 26px;
+    position: relative;
+    right: 5px;
+    top: 1px;
+    border: none;
+    color: white;
+    background-color: #715A52;
+}
+#bg{
+    background-color: #F1F1F3;
+}
+#bg img{
+    display: block;
+    margin: auto;
+}
+#message{
+    overflow: hidden;
+    width: 887px;
+    margin: 50px auto;
+}
+#message img{
+    height: 350px;
+    width: 250px;
+    float: left;
+    border: 1px solid #F1F1F3;
+    padding: 0 50px;
+}
+#con{
+    float: left;
+    margin-left: 20px;
+}
+#con h3{
+    margin-left: 5px;
+}
+#con .title{
+    color: #f70a0a;
+    font-size: 13px;
+    margin-left: 5px;
+}
+#con .pirce{
+    background-color: #f7f3f3;
+    padding: 5px;
+    font-size: 12px;
+    color: #a1a1a3;
+    margin-top: 10px;
+}
+#con .pirce p{
+    margin-bottom: 8px;
+}
+#con .pirce p i{
+    margin-left: 30px;
+    color: #0f0f0f;
+    text-decoration: line-through;
+}
+#con .pirce p span{
+    margin-left: 15px;
+    color: #f10d0d;
+    font-size: 20px;
+    font-weight: bold;
+}
+#con .freight{
+    margin: 15px 0;
+    font-size: 12px;
+    color: #a1a1a3;
+    text-indent: 6px;
+}
+#con .freight i{
+    margin-left: 20px;
+    color: #1c1c1d;
+}
+#con .sales{
+    font-size: 12px;
+    color: #a1a1a3;
+    border-top: 1px solid #a1a1a3;
+    border-bottom: 1px solid #a1a1a3;
+    padding: 10px 0;
+}
+#con .sales span{
+    padding: 0 40px;
+}
+#con .sales span i{
+    color: #f70a0a;
+    font-weight: 600;
+}
+#con .sales span:nth-of-type(3) i{
+    color: #079125;
+}
+#con .net{
+    color: #a1a1a3;
+    font-size: 12px;
+    text-indent: 6px;
+    margin: 20px 0 10px 0;
+}
+#con .net i:nth-of-type(1){
+    margin-left: 28px;
+}
+#con .net i{
+    padding: 5px;
+    border: 1px solid #535355;
+    margin: 10px 5px;
+}
+#con .amount{
+    margin-left: 6px;
+    color: #a1a1a3;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#con .amount span{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 40px;
+    border: 1px solid #a1a1a3;
+    width: 35px;
+    height: 25px;
+    line-height: 30px;
+}
+#con .amount i{
+    border: 1px solid #a1a1a3;
+    display: inline-block;
+    height: 10px;
+    line-height: 9px;
+    text-align: center;
+    position: relative;
+    width: 15px;
+    left: 2px;
+    top: -10px;
+}
+#con .amount i:nth-of-type(2){
+    border: 1px solid #a1a1a3;
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    width: 11px;
+    left: -15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    top: 6px;
+}
+#con .amount b{
+    margin-left: 20px;
+}
+#con button{
+    width: 150px;
+    padding: 8px 20px;
+}
+#con button:nth-of-type(1){
+    margin-left: 74px;
+    background-color: #FFEDED;
+    margin-right: 10px;
+    border: 1px solid #ec0a0a;
+    outline: none;
+    color: #ec0a0a;
+}
+#con button:nth-of-type(2){
+    background-color: #f80808;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+}
+#con .server{
+    font-size: 12px;
+    margin: 20px 0 0 6px ;
+    color: #a1a1a3;
+}
+#con .server b{
+    color: #202020;
+    margin-left: 20px;
+}
+#con .server i{
+    display: block;
+    margin: 5px 0 0 70px;
+    color: #343436;
+}
+#footer{
+    clear: both;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+#footer li{
+    float: left;
+    padding: 10px 0;
+}
+
+#footer li span{
+    display: inline-block;
+    width: 226px;
+    height: 52px;
+    margin-bottom: 13px;
+}
+#footer li:nth-of-type(1) span{
+    background: url(../images/TB1I.jpg) no-repeat -11px -21px;
+}
+#footer li:nth-of-type(2) span{
+    background: url(../images/TB1I.jpg) no-repeat -260px -21px;
+}
+#footer li:nth-of-type(3) span{
+    background: url(../images/TB1I.jpg) no-repeat -535px -21px;
+}
+#footer li:nth-of-type(4) span{
+    background: url(../images/TB1I.jpg) no-repeat -812px -21px;
+}
+

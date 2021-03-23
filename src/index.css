@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+a,i,li{
+    font-size: 12px;
+    color: #78797a;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+i{
+    font-style: normal;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background-color: #E3E4E5;
+    overflow: hidden;
+}
+.header-right{
+    overflow: hidden;
+}
+.header-right li{
+    float: left;
+    padding: 10px 5px;
+}
+#logo{
+    clear: both;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.search input{
+    width: 300px;
+    height: 29px;
+}
+.search button{
+    padding: 7px 26px;
+    position: relative;
+    right: 5px;
+    top: 1px;
+    border: none;
+    color: white;
+    background-color: #715A52;
+}
+
+#bg{
+    background-color: #F1F1F3;
+}
+#bg img{
+    display: block;
+    margin: auto;
+}
+#goods ul{
+    margin-top: 10px;
+    overflow: hidden;
+    width: 1010px;
+    margin: 5px auto;
+}
+#goods li{
+    list-style: none;
+    float: left;
+    width: 182px;
+    font-size: 13px;
+    margin: 0 10px;
+}
+#goods li a{
+    overflow: hidden;
+    display: inline-block;
+}
+#goods li a img{
+    width: 182px;
+}
+#goods li img:nth-child(2){
+    display: block;
+    border: 1px solid #f50606;
+    margin-left: 20px;
+}
+#goods li p:nth-of-type(1){
+    color: #f50606;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#goods li p:nth-of-type(3){
+    color: #9d9da1;
+}
+#goods li p:nth-of-type(3) i{
+    color: #DFB07C;
+    font-size: 12px;
+}
+#goods li p:nth-of-type(3) span{
+    display: inline-block;
+    height: 11px;
+    line-height: 11px;
+    color: #88B4DD;
+    font-size: 12px;
+    border-left:2px solid #b7b7bb ;
+    margin-left: 5px;
+    padding: 0 0 0 5px;
+}
+#footer{
+    clear: both;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+#footer li{
+    float: left;
+    padding: 10px 0;
+}
+#footer h3{
+    display: inline-block;
+    color: black;
+    height: 67px;
+    line-height: 67px;
+    overflow: hidden;
+}
+#footer li span{
+    display: inline-block;
+    width: 226px;
+    height: 52px;
+    margin-bottom: 13px;
+}
+#footer li:nth-of-type(1) span{
+    background: url(./images/TB1I.jpg) no-repeat -11px -21px;
+}
+#footer li:nth-of-type(2) span{
+    background: url(./images/TB1I.jpg) no-repeat -260px -21px;
+}
+#footer li:nth-of-type(3) span{
+    background: url(./images/TB1I.jpg) no-repeat -535px -21px;
+}
+#footer li:nth-of-type(4) span{
+    background: url(./images/TB1I.jpg) no-repeat -812px -21px;
+}
+
+
+
+
+
+
